@@ -23,6 +23,15 @@ desktop.ini
 test_*.docx
 test_*.pdf
 Bao_cao_Xuat_Tu_Dong.*
-extracted_*.txt
-inspect_covers.py
 *.tmp
+
+# Personal assignment files & generated outputs (kept locally only)
+*.doc
+*.docx
+*.pdf
+*.zip
+Văn Lắm/
+figures/
+build_*.py
+convert*.*
+generate_figures.py

@@ -37,8 +37,8 @@ Chỉ cần nhập thông tin sinh viên và **dán nội dung văn bản thô v
 - **Cách 1**: Bấm vào nút xanh **Code** trên trang GitHub này $\rightarrow$ Chọn **Download ZIP** $\rightarrow$ Giải nén thư mục.
 - **Cách 2**: Sử dụng lệnh Git Clone:
   ```bash
-  git clone https://github.com/yamate2906/DNC-AutoReport-Formatter.git
-  cd DNC-AutoReport-Formatter
+  git clone https://github.com/yamate2906/admin_tool_dnc.git
+  cd admin_tool_dnc
   ```
 
 ### Bước 2: Cài đặt thư viện cần thiết
@@ -70,15 +70,6 @@ Chỉ cần **nhấp đúp chuột vào file**:
 ├── tool_formatter.py                       # Bộ engine tự động định dạng & tạo Mục lục
 ├── dnc_logo.png                            # Logo chính thức Trường ĐH Nam Cần Thơ
 ├── requirements.txt                        # Danh sách thư viện Python phụ thuộc
-├── figures/                                # Thư mục chứa các biểu đồ khoa học 300 DPI
-│   ├── fig_2_1_architecture.png
-│   ├── fig_2_2_ogc_flow.png
-│   ├── fig_3_1_random_forest.png
-│   ├── fig_3_2_pipeline.png
-│   ├── fig_4_1_traffic_pattern.png
-│   └── fig_4_2_prediction_comparison.png
-├── Bao_cao_Cuoi_ki_DNC_309_Dinh_Van_Lam.*  # File mẫu báo cáo cuối kỳ hoàn chỉnh (.doc, .docx, .pdf)
-├── Bao_cao_Giua_ki_Springer_Dinh_Van_Lam.* # File mẫu báo cáo giữa kỳ hoàn chỉnh (.doc, .docx, .pdf)
 └── README.md                               # Hướng dẫn chi tiết
 ```
 
@@ -92,3 +83,4 @@ Chỉ cần **nhấp đúp chuột vào file**:
 - **Trường**: Trường Đại học Nam Cần Thơ (DNC)
 - **Giảng viên hướng dẫn**: **TS. Ngô Hồ Anh Khôi**
 - **Môn học**: Phương Pháp Nghiên Cứu và Viết Báo Cáo Khoa Học (Học kỳ I)
+
