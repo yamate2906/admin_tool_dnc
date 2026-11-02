@@ -9,7 +9,7 @@ import tool_formatter
 class AutoReportApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("DNC AutoReport Formatter - Công Cụ Định Dạng Báo Cáo Tự Động ĐH Nam Cần Thơ")
+        self.root.title("Admin Tool DNC")
         self.root.geometry("900x750")
         self.root.minsize(800, 600)
         self.lbl_status = None
@@ -31,7 +31,7 @@ class AutoReportApp:
         header_frame = tk.Frame(self.root, bg="#0d47a1", padx=15, pady=10)
         header_frame.pack(fill=tk.X)
         
-        title_label = tk.Label(header_frame, text="CÔNG CỤ TỰ ĐỘNG ĐỊNH DẠNG BÁO CÁO KHOA HỌC DNC",
+        title_label = tk.Label(header_frame, text="Công Cụ Định Dạng Báo Cáo Chuẩn DNC",
                                font=("Arial", 14, "bold"), fg="#ffffff", bg="#0d47a1")
         title_label.pack(anchor="w")
         
@@ -56,14 +56,14 @@ class AutoReportApp:
     def build_meta_tab(self):
         # Grid layout for metadata inputs
         fields = [
-            ("Họ và tên sinh viên:", "ho_ten", "ĐINH VĂN LẮM"),
+            ("Họ và tên sinh viên:", "ho_ten", "Admin"),
             ("Mã số sinh viên (MSSV):", "mssv", "235292"),
             ("Lớp sinh hoạt:", "lop", "DH23TIN06"),
-            ("Tên đề tài (Tiếng Việt):", "ten_de_tai", "XÂY DỰNG HỆ THỐNG WEBGIS DỰ ĐOÁN GIAO THÔNG BẰNG RANDOM FOREST"),
-            ("Tên đề tài (Tiếng Anh):", "ten_de_tai_tieng_anh", "An Overview Study on the Application of the Random Forest Algorithm and WebGIS Platform in Traffic Forecasting"),
-            ("Tên học phần / Môn học:", "mon_hoc", "Phương Pháp Nghiên Cứu và Viết Báo Cáo Khoa Học"),
-            ("Học kỳ thực hiện:", "hoc_ky", "Học kỳ I"),
-            ("Giảng viên hướng dẫn:", "giang_vien", "TS. NGÔ HỒ ANH KHÔI"),
+            ("Tên đề tài (Tiếng Việt):", "ten_de_tai", "Đề Tài"),
+            ("Tên đề tài (Tiếng Anh):", "ten_de_tai_tieng_anh", "Tiếng em/tiếng anh thì t biết ín lịt thì NO"),
+            ("Tên học phần / Môn học:", "mon_hoc", "học môn gì ghi vào"),
+            ("Học kỳ thực hiện:", "hoc_ky", "không biết học kì mấy nghỉ mẹ đi"),
+            ("Giảng viên hướng dẫn:", "giang_vien", "ông nội nào hướng dẫn đưa vào bảng phong thần"),
             ("Khoa quản lý:", "khoa", "Khoa Công nghệ Thông tin"),
             ("Ngành đào tạo:", "nganh", "Công nghệ Thông tin"),
             ("Mã số ngành:", "ma_nganh", "7480201"),
@@ -135,7 +135,7 @@ class AutoReportApp:
         lbl_name = ttk.Label(action_frame, text="Tên file xuất ra:")
         lbl_name.grid(row=1, column=0, sticky="w", padx=10, pady=3)
         self.ent_filename = ttk.Entry(action_frame, width=40)
-        self.ent_filename.insert(0, "Bao_cao_Xuat_Tu_Dong")
+        self.ent_filename.insert(0, "ghi tên file mày muốn xuất ra")
         self.ent_filename.grid(row=1, column=1, sticky="w", padx=10, pady=3)
 
         # PDF Export Checkbox
