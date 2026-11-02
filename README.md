@@ -31,7 +31,7 @@ Chỉ cần nhập thông tin sinh viên và **dán nội dung văn bản thô v
 
 ---
 
-## 🛠️ Hướng Dẫn Cài Đặt & Sử Dụng Cho Bạn Bè
+## 🛠️ Hướng Dẫn Cài Đặt & Sử Dụng
 
 ### Bước 1: Tải mã nguồn về máy
 - **Cách 1**: Bấm vào nút xanh **Code** trên trang GitHub này $\rightarrow$ Chọn **Download ZIP** $\rightarrow$ Giải nén thư mục.
