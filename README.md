@@ -1,10 +1,10 @@
-# 🎓 DNC AutoReport Formatter
+# 🎓 Admin Tool Dnc
 **Công Cụ Tự Động Định Dạng Báo Cáo Khoa Học & Đồ Án - Trường Đại Học Nam Cần Thơ (DNC)**
 
 ---
 
 ## 🌟 Giới Thiệu
-**DNC AutoReport Formatter** là bộ công cụ tự động hóa định dạng văn bản báo cáo khoa học, tiểu luận và đồ án học phần dành riêng cho sinh viên **Trường Đại học Nam Cần Thơ (DNC)**, đặc biệt là sinh viên **Khoa Công nghệ Thông tin**.
+**Admin Tool Dnc** là bộ công cụ tự động hóa định dạng văn bản báo cáo khoa học, tiểu luận và đồ án học phần dành riêng cho sinh viên **Trường Đại học Nam Cần Thơ (DNC)**, đặc biệt là sinh viên **Khoa Công nghệ Thông tin**.
 
 Chỉ cần nhập thông tin sinh viên và **dán nội dung văn bản thô vào**, công cụ sẽ tự động chuẩn hóa toàn bộ cấu trúc bài viết và xuất ra đồng thời 3 định dạng: **`.docx`**, **`.doc`**, và **`.pdf`** chất lượng cao.
 
@@ -76,11 +76,6 @@ Chỉ cần **nhấp đúp chuột vào file**:
 ---
 
 ## 👨‍💻 Tác Giả & Bản Quyền
-- **Sinh viên thực hiện**: **Đinh Văn Lắm**
-- **MSSV**: `235292` | **Lớp**: `DH23TIN06`
-- **Ngành**: Công nghệ Thông tin (Mã ngành: `7480201`)
-- **Khoa**: Khoa Công nghệ Thông tin
-- **Trường**: Trường Đại học Nam Cần Thơ (DNC)
-- **Giảng viên hướng dẫn**: **TS. Ngô Hồ Anh Khôi**
-- **Môn học**: Phương Pháp Nghiên Cứu và Viết Báo Cáo Khoa Học (Học kỳ I)
+- **Admin Đinh Văn Lắm** 
+
 
